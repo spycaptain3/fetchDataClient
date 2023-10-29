@@ -23,7 +23,7 @@ function Home() {
     };
 
     // Make a POST request to your API
-    const apiURL = 'http://localhost:4015';
+    const apiURL = 'https://archive-image.onrender.com';
     fetch(apiURL, {
       method: 'POST',
       headers: {
